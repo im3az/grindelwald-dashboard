@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style css -->
+    <style>
+      .font-poppins {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+
+    <title>Dashboard</title>
+  </head>
+
+  <body class="font-poppins">
+    <div class="bg-[#101010] flex h-screen">
+      <!-- left side bar -->
+
+      <div class="">
+        <!-- avatar -->
+        <div class="avatar mx-8 my-14">
+          <div class="relative inline-flex">
+            <img
+              src="./assets/image/avatar.png"
+              alt="avatar"
+              class="inline-block relative object-cover object-center w-20 h-20 rounded-lg"
+            />
+
+            <span
+              class="absolute rounded-full py-1 px-1 text-xs font-medium content-[''] leading-none grid place-items-center top-[4%] right-[2%] translate-x-2/4 -translate-y-2/4 bg-red-500 text-white min-w-[20px] min-h-[20px]"
+            >
+              4
+            </span>
+          </div>
+          <h1 class="text-white font-semibold text-2xl">Samantha</h1>
+          <p class="text-[#8a8989] text-lg">samantha@email.com</p>
+        </div>
+
+        <!-- side bar options -->
+        <div class="options font-semibold text-xl text-[#8a8989] mx-8 my-20">
+          <div class="mb-7">Dashboard</div>
+          <div class="mb-7 text-white">Expenses</div>
+          <div class="mb-7">Wallets</div>
+          <div class="mb-7">Summary</div>
+          <div class="mb-7">Account</div>
+          <div class="mb-7">Setting</div>
+        </div>
+      </div>
+
+      <!-- dashboard body -->
+      <div class="bg-white m-3 w-screen rounded-2xl "></div>
+    </div>
+  </body>
+</html>
